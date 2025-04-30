@@ -1,19 +1,5 @@
 # ✨ Full Stack Realtime Chat App ✨
-
-![Demo App](/frontend/public/screenshot-for-readme.png)
-
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
-
-Highlights:
-
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
+This chat application is built using the MERN stack (MongoDB, Express.js, React, Node.js) for a full-fledged backend and frontend. It uses Socket.io for real-time messaging, with TailwindCSS and Daisy UI for sleek, responsive UI design and JWT ensures secure authentication and authorization. The application also implements robust error handling for both client and server sides.
 
 ### Setup .env file
 
@@ -34,7 +20,18 @@ NODE_ENV=development
 ```shell
 npm run build
 ```
+### Install Dependencies
 
+  ### Backend
+   ```
+      cd backend
+      npm install
+   ```
+  ### Frontend
+   ```
+      cd ../frontend
+      npm install
+   ```
 ### Start the app
 
 ```shell
